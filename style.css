@@ -1,0 +1,62 @@
+body{
+  background-color:black;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  
+}
+#container{
+   color:white;
+    
+    
+}
+@media screen and (min-width: 800px){
+ .number{
+    font-size: 8rem;
+    font-weight:800;
+ }
+ .details{
+    font-size:2rem;
+    font-weight:800;
+ }
+ .btn{
+    padding:1vh 5vh;
+    font-size:1.5rem;
+    margin-left:1vw;
+    cursor: pointer;
+ 
+ }
+}
+@media screen and (max-width:799px){
+ .number{
+        font-size: 4rem;
+        font-weight:600;
+ }
+ .details{
+    font-size:1.5rem;
+    font-weight:800;
+ }
+ .btn{
+    padding:1vh 3vh;
+    font-size:1.5rem;
+    margin-left:1vw;
+    cursor: pointer;
+ 
+ }
+}
+    
+#buttons{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+#start:hover{
+background-color: greenyellow;
+}
+#stop:hover{
+background-color: red;
+}
+#restart:hover{
+  background-color: orange;
+}
